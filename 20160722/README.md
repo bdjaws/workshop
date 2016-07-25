@@ -1,5 +1,7 @@
 ## 第1回勉強会
 
+http://jawsug-bigdata.connpass.com/event/34915/
+
 ### 01.EMRの紹介と他のHadoop製品との使い分け
 
 渡部　徹太郎（Tetsutaro Watanabe)
