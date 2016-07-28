@@ -32,4 +32,4 @@ AWS上でビッグデータ処理を行っている(行おうとしている）�
 
 ## 履歴
 
-- [第1回勉強会 EMRとRedShift](20160722)
+- [第1回勉強会 EMRとRedShift](https://github.com/bdjaws/workshop/tree/master/20160722)
