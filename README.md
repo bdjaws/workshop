@@ -1,6 +1,6 @@
 ## ビッグデータ支部の紹介
 
-![logo](https://raw.githubusercontent.com/bdjaws/workshop/master/logo.png)
+![logo](logo.png)
 
 AWS上でビッグデータ処理を行っている(行おうとしている）ユーザを中心としたグループです。
 
