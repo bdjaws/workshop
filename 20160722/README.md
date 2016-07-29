@@ -12,7 +12,7 @@
 AWSのマネージドHadoopサービスであるEMRを紹介します。 また、リクルートではオンプミスのHadoopやTresureDataといったフルマネージドサービスを使いつつも、適材適所でEMRを使ってます。
 その時の使い分けを説明します。
 
-[発表資料](01.BigData-JAWS.pptx)
+[発表資料](https://github.com/bdjaws/workshop/raw/master/20160722/01.BigData-JAWS.pptx)
 
 ### 02.docomoのRedshiftの使わせ方（×使い方)
 
@@ -25,4 +25,4 @@ NTTドコモ サービスイノベーション部　ビッグデータ担当
 ドコモのルールを守りながら、利便性をなるべく下げないようにするために行った涙
 ぐましい努力を紹介する。
 
-[発表資料](02.JAWS_BD_NTTDOCOMO.pdf)
+[発表資料](https://github.com/bdjaws/workshop/raw/master/20160722/02.JAWS_BD_NTTDOCOMO.pdf)
