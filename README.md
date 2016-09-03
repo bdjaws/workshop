@@ -20,7 +20,7 @@ AWS上でビッグデータ処理を行っている(行おうとしている）�
 
 ## 勉強会について
 
-<img src="20160722/IMG_0285.JPG" width="300">
+<img src="https://raw.githubusercontent.com/bdjaws/workshop/master/20160722/IMG_0285.JPG" width="300">
 
 月に1回の頻度で勉強会を実施する予定です。
 
