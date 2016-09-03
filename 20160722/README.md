@@ -2,6 +2,11 @@
 
 [イベントページ](http://jawsug-bigdata.connpass.com/event/34915/)
 
+### 様子
+
+<img src="IMG_0285.JPG" width="300"> <img src="IMG_0286.JPG" width="300">
+
+
 ### 01.EMRの紹介と他のHadoop製品との使い分け
 
 渡部　徹太郎（Tetsutaro Watanabe)
