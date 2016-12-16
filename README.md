@@ -37,3 +37,4 @@ AWS上でビッグデータ処理を行っている(行おうとしている）�
 - [第1回勉強会〜今回はEMRとRedShiftがメイン〜(2016/07/22) 資料ページ](https://github.com/bdjaws/workshop/tree/master/20160722)
 - [第2回勉強会〜Embulk/DigdagとRedshift、クックパッドの権限管理〜(2016/09/26) 資料ページ](https://github.com/bdjaws/workshop/tree/master/20160926)
 - [第3回勉強会〜Kinesis Analytics/Apache Nifi/AWS最新アップデート〜(2016/11/18) 資料ページ](https://github.com/bdjaws/workshop/tree/master/20161118)
+- [第4回勉強会〜EMR祭り！Embulk+EMR、スポットインスタンス自動入札、基幹業務利用等〜(2016/12/12) 資料ページ](https://github.com/bdjaws/workshop/tree/master/20161212)
