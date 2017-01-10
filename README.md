@@ -8,13 +8,13 @@ AWS上でビッグデータ処理を行っている(行おうとしている）�
 
 以下のテーマを想定しています。
 
-* 分散集計(RedShiftやEMR等)
-* 機械学習(EMRやAmazon Michine Learning等)
-* 分散キュー(kinesis)＋ショートバッチ
+* 分散集計(RedShift、EMR、Athena等)
+* 機械学習(EMR、Amazon Michine Learning等)
+* ストリーム・マイクロバッチ(Kinesis)
 * 分散KVS(DynamoDB)
-* データフロー制御・スケジューリング(SWF,DataPipeline等)
+* データフロー制御・スケジューリング(SWF,DataPipeline,Glue等)
 * データマイグレーション(ネットワーク周り、スノーボール等）
-* BI(QuickSight等)
+* BI (QuickSight)
 
 現在かっこいいロゴを作ってくれる方を募集しています！
 
