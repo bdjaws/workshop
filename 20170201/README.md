@@ -1,4 +1,4 @@
-## 第4回勉強会
+## 第5回勉強会
 
 [イベントページ](https://jawsug-bigdata.connpass.com/event/48505/)
 
@@ -38,4 +38,4 @@ S3に昔から溜めていた弊社のWeb行動ログ(30TB)をAWS Athenaを使�
 概要：
 re:Invent2016のセッションBDM401の内容を日本語で説明します。
 
-[発表資料](https://github.com/bdjaws/workshop/raw/master/20170201/03.BDM401_japanese.md)
+[発表資料](https://github.com/bdjaws/workshop/blob/master/20170201/03.BDM401_japanese.md)
