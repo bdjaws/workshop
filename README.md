@@ -39,3 +39,4 @@ AWS上でビッグデータ処理を行っている(行おうとしている）�
 - [第3回勉強会〜Kinesis Analytics/Apache Nifi/AWS最新アップデート〜(2016/11/18) 資料ページ](https://github.com/bdjaws/workshop/tree/master/20161118)
 - [第4回勉強会〜EMR祭り！Embulk+EMR、スポットインスタンス自動入札、基幹業務利用等〜(2016/12/12) 資料ページ](https://github.com/bdjaws/workshop/tree/master/20161212)
 - [第5回勉強会〜新サービスAthena使ってみた×２と EMR deep dive〜(2017/02/01) 資料ページ](https://github.com/bdjaws/workshop/tree/master/20170201)
+- [第6回勉強会〜Kinesis祭り〜(2017/04/04) 資料ページ](https://github.com/bdjaws/workshop/tree/master/20170404)
