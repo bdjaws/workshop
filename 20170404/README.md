@@ -2,6 +2,10 @@
 
 [イベントページ](https://jawsug-bigdata.connpass.com/event/52590/)
 
+### 様子                                                                                                                                                    
+                                                                                                                                                            
+<img src="jaws6.jpg" width="300">
+
 ### 01.GunosyでのKinesisAnalytics利用について
 
 小出 幸典
