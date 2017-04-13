@@ -15,4 +15,4 @@ Athenaは新しいサーバレスクエリサービスで、Amazon S3に保存�
 今回のセミナーでは、米国AWS社のGeneral ManagerのRahul Pathak 氏に来日してもらい、Athenaの最新アップデートについて説明してもらいます。また、参加者から直接フィードバックを伝えます。
 
 
-[発表資料]([発表資料](https://github.com/bdjaws/workshop/raw/master/20170406/athena_overview_2017-04-02_jaws.pdf))
+[発表資料](https://github.com/bdjaws/workshop/raw/master/20170406/athena_overview_2017-04-02_jaws.pdf)
