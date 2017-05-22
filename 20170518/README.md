@@ -8,18 +8,18 @@
 
 ### 01.Redshiftまでの大規模データフロー制御
 
-鈴木　浩之
+鈴木 浩之
 
 NTTドコモ サービスイノベーション部 ビッグデータ担当
 
 概要：
 ビッグデータ分析を行うための前処理（ETL)はツールも方法も様々。Redshiftをメインとしたドコモのビッグデータ分析基盤におけるデータ加工などのフロー制御の概要と苦労話を紹介
 
-[発表資料](https://github.com/bdjaws/workshop/raw/master/20170518/Redshiftまでの大規模データフロー制御.pdf)
+[発表資料](https://github.com/bdjaws/workshop/raw/master/20170518/JAW_BD_7_NTTDOCOMO.pdf)
 
 ### 02.カラムナフォーマットのきほん
 
-林田　千瑛
+林田 千瑛
 
 Retty.Inc
 
