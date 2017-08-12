@@ -26,7 +26,7 @@ NTTデータ　堤崇行さん
 概要：
 弊社ではRedshiftをマルチクラスタで運用しています。なぜマルチクラスタにしたのか、マルチクラスタにする際の注意点や、Cloudwatchで見られないメトリクスを見るための負荷監視方法について紹介します。
 
-[発表資料]<https://github.com/bdjaws/workshop/blob/master/20170809/redshift_ops_tips.pptx>
+[発表資料](https://github.com/bdjaws/workshop/blob/master/20170809/redshift_ops_tips.pptx)
 
 ### 03.AWS Summit Tokyo 2017 まとめ
 
