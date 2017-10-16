@@ -31,10 +31,10 @@
 概要：
 クラウドワークスでは日々データドリブンなサービス改善を行っており、データ分析基盤の中核としてRedshiftを利用しています。
 本発表では、クラウドワークスを支えるデータ分析基盤の事例紹介として、
-FlyData SyncによるMySQL => Redshiftへのデータ同期
-Kinesis Streams & FirehoseによるログデータのRedshiftへのデータ同期
-SQLバッチフレームワークbricolageによる集計バッチ
-BIツールRedashを利用したデータ分析
+FlyData SyncによるMySQL => Redshiftへのデータ同期、
+Kinesis Streams & FirehoseによるログデータのRedshiftへのデータ同期、
+SQLバッチフレームワークbricolageによる集計バッチ、
+BIツールRedashを利用したデータ分析、
 などのシステム構成を紹介したのち、その他運用Tipsなどについても紹介する予定です。
 
 [発表資料](https://speakerdeck.com/minamijoyo/bigdata-jaws-number-9-data-analytics-infra-for-crowdworks)
