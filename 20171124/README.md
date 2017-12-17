@@ -13,7 +13,7 @@
 概要：
 弊社では現在AWS化推進プロジェクトを実施しており、その過程でAWS Glueの検証を行いました。 本発表では、そのAWS Glueの検証をAWS未経験の新卒が実施し、その検証内容や使った所感、実際に陥ったバットノウハウなどについて紹介します
 
-[発表資料]()
+[発表資料](https://github.com/bdjaws/workshop/raw/master/20171124/DMMLabo_JAWS_Glue.pdf)
 
 
 ### 02.AWS Glue in Action
