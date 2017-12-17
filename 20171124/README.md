@@ -4,7 +4,7 @@
 
 ### 様子
 
-<img src="pic20171124.jpg" width="300">
+<img src="pic20171124.png" width="300">
 
 ### 01.AWS未経験の新卒がAWS Glue使ってみた
 
