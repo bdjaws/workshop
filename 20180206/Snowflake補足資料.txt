@@ -1,0 +1,79 @@
+■アーキテクチャの詳細が説明されているドキュメント
+  詳細な仕組みまでは記載されていませんでしたが、S3ファイル、トランザクションログ、ロック情報などからなるメタデータは
+  スケーラブルでトランザクショナルなキーバリューストアを用いたクラウドサービスレイヤで管理されているようです。
+
+  https://www.snowflake.net/resource/sigmod-2016-paper-snowflake-elastic-data-warehouse/
+  3.1 Data Storage
+  Metadata such as catalog objects, which table consists of which S3 files, statistics, locks, transaction logs, etc. is stored
+  in a scalable, transactional key-value store, which is part of the Cloud Services layer.
+
+■データベース作成からデータロード、検索までのハンズオンスクリプト
+1.事前準備
+  ・アカウント登録
+    https://www.slideshare.net/mmotohas/snowflake-elastic-data-warehouse-as-a-service-81459451
+  ・SnowflakeのWebコンソールからsnowsql(CLI Client)のインストール、接続情報設定
+    https://docs.snowflake.net/manuals/user-guide/snowsql-install-config.html
+
+2.snowflakeクライアント起動
+  snowsql
+
+3.DB作成
+  CREATE DATABASE jaws_db;
+
+4.ウェアハウス作成/設定
+  CREATE WAREHOUSE jaws_warehouse WITH WAREHOUSE_SIZE = xsmall;
+  use warehouse jaws_warehouse;
+
+5.スキーマ指定
+  use schema public;
+
+6.テーブル作成
+  CREATE OR REPLACE TABLE jaws_table (id NUMBER, text STRING);
+
+7.データ投入/検索
+
+7.1 INSERT/SELECT
+
+7.1.1 INSERT
+      INSERT INTO jaws_table VALUES(1, 'Hello!');
+
+7.1.2 SELECT
+      SELECT * FROM jaws_table;
+      +----+--------+
+      | ID | TEXT   |
+      |----+--------|
+      |  1 | Hello! |
+      +----+--------+
+      1 Row(s) produced. Time Elapsed: 0.344s
+
+7.2 COPY/SELECT
+
+7.2.1 フォーマット作成
+      CREATE OR REPLACE FILE FORMAT jaws_tsv_format
+        TYPE = 'CSV'
+        COMPRESSION = AUTO
+        FIELD_DELIMITER = '\t'
+        DATE_FORMAT = 'YYYY-MM-DD'
+        SKIP_HEADER = 1;
+
+7.2.2 ステージ作成
+      CREATE OR REPLACE STAGE jaws_stage
+        URL = 's3://XXXX/'
+        CREDENTIALS = (aws_key_id='XXXX' aws_secret_key='XXXX');
+
+7.2.3 S3からのデータ投入/検索
+      COPY INTO jaws_table
+        FROM @jaws_stage/testdata/
+        PATTERN = '.*jaws_.*'
+        FILE_FORMAT = ( FORMAT_NAME = 'jaws_tsv_format')
+        ON_ERROR = 'ABORT_STATEMENT'
+        PURGE = FALSE;
+      SELECT * FROM jaws_table;
+
+8.ウェアハウス停止
+  alter warehouse jaws_warehouse suspend;
+
+9.DB削除
+  DROP DATABASE jaws_db;
+  DROP WAREHOUSE jaws_warehouse;
+  !exit

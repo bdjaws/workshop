@@ -43,6 +43,8 @@ AWS上でビッグデータ処理を行っている(行おうとしている）�
 - [第7回勉強会〜Redshift Spectrum, カラムナストレージ, 大規模データフロー〜(2017/05/18) 資料ページ](https://github.com/bdjaws/workshop/tree/master/20170518)
 - [第8回勉強会〜Quick Sight、Redshift運用、AWS Summit Tokyo 2017 まとめ〜 (2017/08/09) 資料ページ ](https://github.com/bdjaws/workshop/tree/master/20170809)
 - [第9回勉強会〜リアルタイムアクセスログ分析、Redshift運用、クラウドワークスの分析基盤〜 (2017/10/11) 資料ページ ](https://github.com/bdjaws/workshop/tree/master/20171011)
+- [第10回勉強会〜AWS Glue 祭り〜 (2017/11/24) 資料ページ ](https://github.com/bdjaws/workshop/tree/master/20171124)
+
 
 
 ## セミナー等
