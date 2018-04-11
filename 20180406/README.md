@@ -1,6 +1,6 @@
 ## 第12回勉強会
 
-$イベントページ](https://jawsug-bigdata.connpass.com/event/83057/)
+[イベントページ](https://jawsug-bigdata.connpass.com/event/83057/)
 
 ### 様子
 
@@ -32,7 +32,7 @@ $イベントページ](https://jawsug-bigdata.connpass.com/event/83057/)
 概要：
 strata data conference 2018の模様と現地のセッションで盛り上がっていたOSSツールの中から、kafka(KSQL)とBigDLについてAWSサービスと比べながら簡単に紹介します。
 
-[発表資料](https://github.com/bdjaws/workshop/raw/master/20180406/)
+[発表資料](https://github.com/bdjaws/workshop/raw/master/20180406/20180406_bigdata_jaws_03.pdf)
 
 ### 04. ワークフローエンジンよもやま噺
 
