@@ -3,7 +3,7 @@
 [イベントページ](https://jawsug-bigdata.connpass.com/event/101211/)
 
 
-### レガシーバッチからの脱却 with AWS Batch
+###[1] レガシーバッチからの脱却 with AWS Batch
 
 株式会社リクルートテクノロジーズ 田村 彰一さん
 
@@ -13,7 +13,7 @@
 [発表資料](file01.pdf)
 
 
-### リクルートライフスタイル分析基盤チーム新人が世話するデータ連携bot達のお話
+###[2] リクルートライフスタイル分析基盤チーム新人が世話するデータ連携bot達のお話
 
 株式会社 リクルートライフスタイル 櫻井 裕司さん
 
@@ -23,7 +23,7 @@
 [発表資料](https://www.slideshare.net/YujiSakurai/bot-117109420)
 
 
-### Amazon Quicksight 最新アップデート
+###[3] Amazon Quicksight 最新アップデート
 
 Amazon Web Services Japan ソリューションアーキテクト 下佐粉 昭さん
 
